@@ -20,21 +20,40 @@ esta autenticação, viabilizando os testes de integração sem a necessidade de
 
 Na seção de filmes, é possível buscar de diversas formas: por ID, com as críticas e uma busca mais refinada por título.
 
-![MOVIE-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/moviecontrollerit.png)
+![MOVIE-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit.png)
 
 Várias componentes do resultado são testadas e este mesmo resultado JSON é obtido usando o mockMvc para testes mais realistas. A imagem a seguir apresenta um trecho do código
 que tem como objetivo testas se o JSON da resposta realmente está retornando o que foi solicitado.
 
-![MOVIE-CONTROLLER-IT-BY-ID-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/moviecontrollerit_visitor_authenticated.png)
+![MOVIE-CONTROLLER-IT-BY-ID-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit_visitor_authenticated.png)
 
 Já para a busca paginada, também temos uma imagem do trecho de código a seguir representando um exemplo de teste para as componentes do JSON de resposta de uma busca paginada
 mais refinada.
 
-![MOVIE-CONTROLLER-IT-BY-GENRE-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/moviecontrollerit_get_by_genre_visitor_authenticated.png)
+![MOVIE-CONTROLLER-IT-BY-GENRE-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit_get_by_genre_visitor_authenticated.png)
 
 Por último também podemos destacar um exemplo de testes de segurança, quando o ID não existir ou usuário não for autorizado.
 
-![MOVIE-CONTROLLER-IT-BY-ID-UNAUTHORIZED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/moviecontrollerit_unauthorized.png)
+![MOVIE-CONTROLLER-IT-BY-ID-UNAUTHORIZED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit_unauthorized.png)
+
+### Reviews
+
+Nesta seção é possível apenas inserir novas críticas.
+
+![REVIEW-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit.png)
+
+A imagem a seguir apresenta um trecho do código que tem como objetivo testas se o JSON da resposta realmente está retornando o que foi solicitado ao inserir uma nova crítica.
+
+![REVIEW-CONTROLLER-IT-BY-ID-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit_created.png)
+
+A seguir é testado se o código correto será retornado caso haja tentativa de criar uma entidade com parâmetros inválidos.
+
+![REVIEW-CONTROLLER-IT-UNPROCESSABLE](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit_unprocessable.png)
+
+Por último são testadas as validações de segurança e seus respectivos retornos para Forbidden, caso em que o usuário é visitante, e Unauthorized, tentativa de inserção de crítica
+com Token inválido.
+
+![REVIEW-CONTROLLER-UNAUTHORIZED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit_fail.png)
 
 # Tecnologias utilizadas back end
 - Java
