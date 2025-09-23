@@ -5,7 +5,7 @@
 
 É uma aplicação backend construída durante as aulas do módulo **Java Spring Expert**, curso organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação consiste em API REST para manipulação de usuários, filmes, gêneros e usuários com conexão com banco de dados H2 utilizando Spring Boot. Como se trata de um 
+A aplicação consiste em API REST para manipulação de usuários, filmes e gêneros com conexão com banco de dados H2 utilizando Spring Boot. Como se trata de um 
 projeto de aprendizado, os dados são importados por um seed e depois são armazenados no banco de dados, este seed pode ser visualizado pelo H2 Console. Para 
 visualização das respostas para os endpoints, é possível utilizar o Postman. Para a saída dos dados serão apresentados apenas DTOs, estes os mesmos construindos utilizando
 ORM e respeitando o padrão REST.
