@@ -23,7 +23,7 @@ Na seção de filmes, é possível buscar de diversas formas: por ID, com as cr�
 ![MOVIE-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit.png)
 
 Várias componentes do resultado são testadas e este mesmo resultado JSON é obtido usando o mockMvc para testes mais realistas. A imagem a seguir apresenta um trecho do código
-que tem como objetivo testas se o JSON da resposta realmente está retornando o que foi solicitado.
+que tem como objetivo testar se o JSON da resposta realmente está retornando o que foi solicitado.
 
 ![MOVIE-CONTROLLER-IT-BY-ID-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/MovieControllerIT/moviecontrollerit_visitor_authenticated.png)
 
@@ -42,7 +42,7 @@ Nesta seção é possível apenas inserir novas críticas.
 
 ![REVIEW-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit.png)
 
-A imagem a seguir apresenta um trecho do código que tem como objetivo testas se o JSON da resposta realmente está retornando o que foi solicitado ao inserir uma nova crítica.
+A imagem a seguir apresenta um trecho do código que tem como objetivo testar se o JSON da resposta realmente está retornando o que foi solicitado ao inserir uma nova crítica.
 
 ![REVIEW-CONTROLLER-IT-BY-ID-VISITOR-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit_created.png)
 
@@ -53,7 +53,19 @@ A seguir é testado se o código correto será retornado caso haja tentativa de 
 Por último são testadas as validações de segurança e seus respectivos retornos para Forbidden, caso em que o usuário é visitante, e Unauthorized, tentativa de inserção de crítica
 com Token inválido.
 
-![REVIEW-CONTROLLER-UNAUTHORIZED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/ReviewControllerIT/reviewcontrollerit_fail.png)
+### Genres
+
+Nesta seção é possível apenas buscar os gêneros.
+
+![GENRE-CONTROLLER-IT](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/GenreControllerIT/genrecontrollerit.png)
+
+A imagem a seguir apresenta um trecho do código que tem como objetivo testar se o JSON da resposta realmente está retornando o que foi solicitado ao buscar os gêneros.
+
+![GENRE-CONTROLLER-IT-AUTHENTICATED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/GenreControllerIT/genrecontrollerit_ok.png)
+
+Por último é testada a validações de segurança e seu respectivo retornos para usuários não autorizados.
+
+![GENRE-CONTROLLER-IT-UNAUTHORIZED](https://github.com/ohyescris/assets/blob/main/images/qa/movieflix/GenreControllerIT/genrecontrollerit_unauthorized.png)
 
 # Tecnologias utilizadas back end
 - Java
