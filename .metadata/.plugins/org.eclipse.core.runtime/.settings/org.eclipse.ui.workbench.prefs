@@ -56,11 +56,6 @@ org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COL
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_TAB_TEXT_COLOR=187,187,187
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END=72,72,76
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START=73,72,76
-org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.FORM_HEADING_ERROR_COLOR=255,110,110
-org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.FORM_HEADING_INFO_COLOR=170,170,170
-org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.FORM_HEADING_WARNING_COLOR=255,200,0
-org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.HOVER_BACKGROUND=52,57,61
-org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.HOVER_FOREGROUND=238,238,238
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_BG_END=49,53,56
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=59,64,66
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR=81,86,88
@@ -72,9 +67,6 @@ org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TA
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INFORMATION_BACKGROUND=81,86,88
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.INFORMATION_FOREGROUND=238,238,238
 org.eclipse.ui.ide.systemDefault.org.eclipse.ui.workbench.SECONDARY_BACKGROUND=0,1,2
-org.eclipse.ui.ide.systemDefault.org.springframework.ide.eclipse.boot.dash.AltTextDecorColor=173,216,230
-org.eclipse.ui.ide.systemDefault.org.springframework.ide.eclipse.boot.dash.MutedTextDecorColor=211,211,211
-org.eclipse.ui.ide.systemDefault.org.springframework.ide.eclipse.boot.dash.TextDecorColor=144,238,144
 org.eclipse.ui.ide.systemDefault.org.springframework.tooling.ls.eclipse.commons.STS4BootMarkerIndicationColor=56,84,26
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=248,248,248
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=248,248,248
