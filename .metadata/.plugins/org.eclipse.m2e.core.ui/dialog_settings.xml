@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Codes\SpringToolsSuite\Java-Spring-Expert\Extra-QAProof\challenge-dsmovie-jacoco"/>
 			<item value="C:\Codes\SpringToolsSuite\Java-Spring-Expert\Extra-QAProof\movieflix-challenge"/>
 		</list>
 		<list key="projectNameTemplate">
