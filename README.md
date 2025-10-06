@@ -11,3 +11,8 @@ amplamenta utilizada para testar endpoints dos controladores respeitando o pedr�
 ## DSMovie Jacoco
 
 Este repositório tem como objetivo mostrar testes unitários da camada de serviço, além da cobertura de código utilizando o Jacoco.
+
+## DSMovie RestAssured
+
+Este repositório tem como objetivo mostrar testes de integração utilizando a ferramenta RestAssured, que funciona apenas se o código
+estiver implementando o padrão REST.
